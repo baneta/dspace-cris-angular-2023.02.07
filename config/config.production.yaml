@@ -1,0 +1,11 @@
+rest:
+  ssl: true
+  host: openscience.ge
+  port: 443
+  nameSpace: /server
+
+ui:
+  ssl: false
+  host: 192.168.10.10
+  port: 4000
+  nameSpace: /
