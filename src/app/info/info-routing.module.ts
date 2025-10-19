@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { I18nBreadcrumbResolver } from '../core/breadcrumbs/i18n-breadcrumb.resolver';
-import { PRIVACY_PATH, END_USER_AGREEMENT_PATH, FEEDBACK_PATH } from './info-routing-paths';
+import { PRIVACY_PATH, END_USER_AGREEMENT_PATH, FEEDBACK_PATH, ABOUT_US_PATH } from './info-routing-paths';
 import { ThemedEndUserAgreementComponent } from './end-user-agreement/themed-end-user-agreement.component';
 import { ThemedPrivacyComponent } from './privacy/themed-privacy.component';
 import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
 import { environment } from '../../environments/environment';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 const imports = [
@@ -40,6 +41,18 @@ const imports = [
           component: ThemedPrivacyComponent,
           resolve: { breadcrumb: I18nBreadcrumbResolver },
           data: { title: 'info.privacy.title', breadcrumbKey: 'info.privacy' }
+        }
+      ]));
+  }
+
+  if (environment.info.enableAboutUs) {
+    imports.push(
+      RouterModule.forChild([
+        {
+          path: ABOUT_US_PATH,
+          component: AboutUsComponent,
+          resolve: { breadcrumb: I18nBreadcrumbResolver },
+          data: { title: 'info.about-us.title', breadcrumbKey: 'info.about-us' }
         }
       ]));
   }

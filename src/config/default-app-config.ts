@@ -534,6 +534,7 @@ export class DefaultAppConfig implements AppConfig {
   info: InfoConfig = {
     enableEndUserAgreement: true,
     enablePrivacyStatement: true,
+    enableAboutUs: true,
     //Configuration for third-party metrics in Klaro
     metricsConsents: [
       {
