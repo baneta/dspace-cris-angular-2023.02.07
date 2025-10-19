@@ -15,6 +15,7 @@ import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
 import { MarkdownViewerModule } from '../shared/markdown-viewer/markdown-viewer.module';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { CcLicensesGuideComponent } from './cc-licenses-guide/cc-licenses-guide.component';
 
 
 const DECLARATIONS = [
@@ -28,7 +29,8 @@ const DECLARATIONS = [
   FeedbackFormComponent,
   ThemedFeedbackFormComponent,
   ThemedFeedbackComponent,
-  AboutUsComponent
+  AboutUsComponent,
+  CcLicensesGuideComponent
 ];
 
 @NgModule({
