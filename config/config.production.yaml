@@ -9,3 +9,6 @@ ui:
   host: 192.168.10.10
   port: 4000
   nameSpace: /
+
+themes:
+  - name: nsl
