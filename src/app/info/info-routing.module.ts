@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { I18nBreadcrumbResolver } from '../core/breadcrumbs/i18n-breadcrumb.resolver';
-import { PRIVACY_PATH, END_USER_AGREEMENT_PATH, FEEDBACK_PATH, ABOUT_US_PATH, CC_LICENSES_GUIDE_PATH } from './info-routing-paths';
+import { PRIVACY_PATH, END_USER_AGREEMENT_PATH, FEEDBACK_PATH, ABOUT_US_PATH, CC_LICENSES_GUIDE_PATH, INSTRUCTIONS_PATH } from './info-routing-paths';
 import { ThemedEndUserAgreementComponent } from './end-user-agreement/themed-end-user-agreement.component';
 import { ThemedPrivacyComponent } from './privacy/themed-privacy.component';
 import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
@@ -9,6 +9,7 @@ import { FeedbackGuard } from '../core/feedback/feedback.guard';
 import { environment } from '../../environments/environment';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { CcLicensesGuideComponent } from './cc-licenses-guide/cc-licenses-guide.component';
+import { InstructionsComponent } from './instructions/instructions.component';
 
 
 const imports = [
@@ -66,6 +67,18 @@ const imports = [
           component: CcLicensesGuideComponent,
           resolve: { breadcrumb: I18nBreadcrumbResolver },
           data: { title: 'info.cc-licenses-guide.title', breadcrumbKey: 'info.cc-licenses-guide' }
+        }
+      ]));
+  }
+
+  if (environment.info.enableInstructions) {
+    imports.push(
+      RouterModule.forChild([
+        {
+          path: INSTRUCTIONS_PATH,
+          component: InstructionsComponent,
+          resolve: { breadcrumb: I18nBreadcrumbResolver },
+          data: { title: 'info.instructions.title', breadcrumbKey: 'info.instructions' }
         }
       ]));
   }

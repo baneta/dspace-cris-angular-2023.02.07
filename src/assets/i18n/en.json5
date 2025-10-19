@@ -2764,6 +2764,16 @@
 
   "info.cc-licenses-guide.title": "CC Licenses Guide",
 
+  "info.instructions.breadcrumbs": "Instructions",
+
+  "info.instructions.head": "Instructions",
+
+  "info.instructions.title": "Instructions",
+
+  "info.instructions.text-material": "Text Instruction",
+
+  "info.instructions.video-material": "Video Instructions",
+
   "item.alerts.private": "This item is non-discoverable",
 
   "item.alerts.withdrawn": "This item has been withdrawn",

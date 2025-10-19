@@ -6,5 +6,6 @@ export interface InfoConfig extends Config {
   enablePrivacyStatement: boolean;
   enableAboutUs: boolean;
   enableCcLicensesGuide: boolean;
+  enableInstructions: boolean;
   metricsConsents: ThirdPartyMetric[];
 }
