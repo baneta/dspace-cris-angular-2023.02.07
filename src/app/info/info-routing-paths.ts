@@ -6,6 +6,7 @@ export const FEEDBACK_PATH = 'feedback';
 export const ABOUT_US_PATH = 'about-us';
 export const CC_LICENSES_GUIDE_PATH = 'cc-licenses-guide';
 export const INSTRUCTIONS_PATH = 'instructions';
+export const REPOSITORY_POLICY_PATH = 'repository-policy';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);

@@ -537,6 +537,7 @@ export class DefaultAppConfig implements AppConfig {
     enableAboutUs: true,
     enableCcLicensesGuide: true,
     enableInstructions: true,
+    enableRepositoryPolicy: true,
     //Configuration for third-party metrics in Klaro
     metricsConsents: [
       {

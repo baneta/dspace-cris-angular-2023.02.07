@@ -2774,6 +2774,12 @@
 
   "info.instructions.video-material": "Video Instructions",
 
+  "info.repository-policy.breadcrumbs": "Repository Policy",
+
+  "info.repository-policy.head": "Repository Policy",
+
+  "info.repository-policy.title": "Repository Policy",
+
   "item.alerts.private": "This item is non-discoverable",
 
   "item.alerts.withdrawn": "This item has been withdrawn",
