@@ -9,5 +9,6 @@ export interface InfoConfig extends Config {
   enableInstructions: boolean;
   enableRepositoryPolicy: boolean;
   enableUserGuide: boolean;
+  enableSelfArchivingGuide: boolean,
   metricsConsents: ThirdPartyMetric[];
 }

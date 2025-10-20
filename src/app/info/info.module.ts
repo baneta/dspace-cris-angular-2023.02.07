@@ -19,6 +19,7 @@ import { CcLicensesGuideComponent } from './cc-licenses-guide/cc-licenses-guide.
 import { InstructionsComponent } from './instructions/instructions.component';
 import { RepositoryPolicyComponent } from './repository-policy/repository-policy.component';
 import { UserGuideComponent } from './user-guide/user-guide.component';
+import { SelfArchivingGuideComponent } from './self-archiving-guide/self-archiving-guide.component';
 
 
 const DECLARATIONS = [
@@ -36,7 +37,8 @@ const DECLARATIONS = [
   CcLicensesGuideComponent,
   InstructionsComponent,
   RepositoryPolicyComponent,
-  UserGuideComponent
+  UserGuideComponent,
+  SelfArchivingGuideComponent
 ];
 
 @NgModule({

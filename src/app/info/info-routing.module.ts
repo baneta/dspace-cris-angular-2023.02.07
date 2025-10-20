@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { I18nBreadcrumbResolver } from '../core/breadcrumbs/i18n-breadcrumb.resolver';
-import { PRIVACY_PATH, END_USER_AGREEMENT_PATH, FEEDBACK_PATH, ABOUT_US_PATH, CC_LICENSES_GUIDE_PATH, INSTRUCTIONS_PATH, REPOSITORY_POLICY_PATH, USER_GUIDE_PATH } from './info-routing-paths';
+import { PRIVACY_PATH, END_USER_AGREEMENT_PATH, FEEDBACK_PATH, ABOUT_US_PATH, CC_LICENSES_GUIDE_PATH, INSTRUCTIONS_PATH, REPOSITORY_POLICY_PATH, USER_GUIDE_PATH, SELF_ARCHIVING_GUIDE_PATH } from './info-routing-paths';
 import { ThemedEndUserAgreementComponent } from './end-user-agreement/themed-end-user-agreement.component';
 import { ThemedPrivacyComponent } from './privacy/themed-privacy.component';
 import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
@@ -12,6 +12,7 @@ import { CcLicensesGuideComponent } from './cc-licenses-guide/cc-licenses-guide.
 import { InstructionsComponent } from './instructions/instructions.component';
 import { RepositoryPolicyComponent } from './repository-policy/repository-policy.component';
 import { UserGuideComponent } from './user-guide/user-guide.component';
+import { SelfArchivingGuideComponent } from './self-archiving-guide/self-archiving-guide.component';
 
 
 const imports = [
@@ -105,6 +106,18 @@ const imports = [
           component: UserGuideComponent,
           resolve: { breadcrumb: I18nBreadcrumbResolver },
           data: { title: 'info.user-guide.title', breadcrumbKey: 'info.user-guide' }
+        }
+      ]));
+  }
+
+  if (environment.info.enableSelfArchivingGuide) {
+    imports.push(
+      RouterModule.forChild([
+        {
+          path: SELF_ARCHIVING_GUIDE_PATH,
+          component: SelfArchivingGuideComponent,
+          resolve: { breadcrumb: I18nBreadcrumbResolver },
+          data: { title: 'info.self-archiving-guide.title', breadcrumbKey: 'info.self-archiving-guide' }
         }
       ]));
   }
