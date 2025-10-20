@@ -1,0 +1,20 @@
+.accordion [aria-expanded=true]:after {
+	content: "\25b2";
+	float: right
+}
+
+.accordion [aria-expanded=false]:after {
+	content: "\25bc";
+	float: right
+}
+
+.accordion > .card {
+	border: none;
+	padding-bottom: 1rem;
+	border-radius: 0;
+}
+
+.accordion > .card > .card-header {
+	background: transparent;
+	border: 1px dashed #bbb;
+}

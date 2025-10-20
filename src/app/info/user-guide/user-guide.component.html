@@ -1,0 +1,359 @@
+<section *ngIf="lang === 'en'" class="static text-justify container">
+	<h1>{{ 'info.user-guide.head' | translate }}</h1>
+	<p>openscience.ge is an open-access academic digital repository that collects and preserves the research output of scientific organizations and individual researchers in Georgia. Its primary function is to collect, ensure long-term preservation, and provide open access to scientific information. The National Science Library manages the repository and oversees it's development and continuous improvement.</p>
+	<div class="accordion" id="accordionUserGuide">
+		<div class="card">
+			<div class="card-header" id="a1h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a1b" aria-expanded="false" aria-controls="a1b">Why Store Research Results in a Digital Repository?</button>
+				</h2>
+			</div>
+			<div id="a1b" class="collapse" aria-labelledby="a1h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>Depositing research in a digital repository benefits both individual researchers and the broader scientific community by enhancing visibility, traceability, and long-term preservation.</p>
+					<h5>Increased Visibility and Impact</h5>
+					<p>Open-access research is read and cited more frequently than work behind paywalls, increasing its reach and influence.</p>
+					<h5>Indexing</h5>
+					<p>Research stored in openscience.ge is indexed by search engines like Google Scholar, ensuring greater discoverability compared to content hosted on personal or institutional websites.</p>
+					<h5>Easy Traceability</h5>
+					<p>openscience.ge assigns identifiers (DOIs, permanent URLs) to research outputs, ensuring stable, permanent links for easy citation and reference.</p>
+					<h5>Statistics</h5>
+					<p>The repository provides real-time metrics, allowing researchers to track views and downloads of their work, offering insight into its reach and impact.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a2h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a2b" aria-expanded="false" aria-controls="a2b">Who Can Submit Research to the Repository?</button>
+				</h2>
+			</div>
+			<div id="a2b" class="collapse" aria-labelledby="a2h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>Research results can be uploaded by registered users, including:</p>
+					<ul>
+						<li>Universities</li>
+						<li>Research institutes</li>
+						<li>Non-governmental organizations</li>
+						<li>State agencies</li>
+						<li>Affiliated researchers and scientists</li>
+						<li>Independent researchers and scientists</li>
+						<li>Master's and PhD students</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a3h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a3b" aria-expanded="false" aria-controls="a3b">What Types of Research Can Be Uploaded?</button>
+				</h2>
+			</div>
+			<div id="a3b" class="collapse" aria-labelledby="a3h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>The repository accepts a wide range of research outputs, including:</p>
+					<ul>
+						<li>Preprints and Postprints</li>
+						<li>Dissertations</li>
+						<li>Books</li>
+						<li>Master's theses (stored under the profile of the scientific-research organization and restricted to closed access)</li>
+						<li>Scientific and official documents and reports</li>
+						<li>Conference materials (abstracts, posters, presentations, etc.)</li>
+						<li>Course materials</li>
+						<li>Scientific photographs and graphics</li>
+						<li>Research-related audio and video recordings</li>
+						<li>Academic journals for archiving</li>
+						<li>Completed research projects</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a4h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a4b" aria-expanded="false" aria-controls="a4b">Preparing Your Material for Submission</button>
+				</h2>
+			</div>
+			<div id="a4b" class="collapse" aria-labelledby="a4h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<h5>Copyright Considerations</h5>
+					<p>Before uploading your work, ensure you have the right to do so:</p>
+					<p>Do you own the copyright? If not, do you have permission to deposit it? If your work has been published (e.g., a journal article, monograph), you may have transferred copyright to the publisher. Check whether the publisher:</p>
+					<ol>
+						<li>Allows self-archiving in a digital repository.</li>
+						<li>Specifies which version of the manuscript can be shared.</li>
+					</ol>
+					<p>Verify that self-archiving is possible:</p>
+					<ol>
+						<li><b>Review Your Agreement</b> – Locate and read the copyright agreement you signed before publication, or:</li>
+						<li><b>Check Journal Policies</b> on the journal website or use resources like <a href="https://openpolicyfinder.jisc.ac.uk/">Open Policy Finder</a> (formerly Sherpa Romeo) to find self-archiving policies, or</li>
+						<li><b>Contact the Publisher</b> – If unsure, reach out to the publisher via email or their website’s contact form to request self-archiving permissions.</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a5h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a5b" aria-expanded="false" aria-controls="a5b">Manuscript Versions for Self-Archiving</button>
+				</h2>
+			</div>
+			<div id="a5b" class="collapse" aria-labelledby="a5h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>Many publishers restrict the self-archiving of the final published version of a work. Below are the different manuscript versions and their key distinctions:</p>
+					<ul>
+						<li><b>Submitted Manuscript (SM)</b> - The original version submitted to a journal before peer review. This version has not undergone any editorial or reviewer feedback.</li>
+						<li><b>Author Accepted Manuscript (AAM)</b> - The peer-reviewed version that incorporates revisions based on reviewer feedback but has not been copyedited or formatted by the publisher. It does not include journal branding or final typesetting.</li>
+						<li><b>Publisher’s Version / Version of Record (VOR)</b> - The final, formatted version published by the journal, including official typesetting, branding, and any assigned identifiers (DOI, pagination, etc.).</li>
+					</ul>
+					<p>Before uploading your work, verify which version your publisher permits for self-archiving.</p>
+					<p>The publisher may restrict uploading the final Publisher’s Version (VOR) but often permits self-archiving of the Submitted Manuscript(SM) or Accepted Manuscript (AAM). These versions are widely accepted for digital self-archiving.</p>
+					<p>For more details, refer to the <a href="/info/self-archiving-guide">Self-Archiving Guide</a>.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a6h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a6b" aria-expanded="false" aria-controls="a6b">Format</button>
+				</h2>
+			</div>
+			<div id="a6b" class="collapse" aria-labelledby="a6h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>For storage purposes, text documents should be converted to PDF format before submitted in the repository. The repository supports as many file formats as possible. Although all formats can be included, it is recommended to use open and sustainable formats. The following formats are preferred for storage purposes:</p>
+					<ul>
+						<li>Text: PDF/A, TXT, HTML, XML, CSV</li>
+						<li>Image / Photo: TIFF, JPEG 2000</li>
+						<li>Audio: WAVE, AIFF, FLAC, MP3</li>
+						<li>Video: MOV, Motion JPEG 2000</li>
+						<li>Data: CSV, XML</li>
+					</ul>
+					<p>Ensure that any previously published material includes proper identifying information. The deposited file should contain full bibliographic information and particularly:</p>
+					<ul>
+						<li>Title and author(s)</li>
+						<li>URL / DOI</li>
+						<li>Copyright / license details</li>
+						<li>Journal name, volume, issue, and publication year (if applicable)</li>
+					</ul>
+					<p>If this information is not available in the masthead of the deposited document, include the front page and impressum of the of the journal/book in the deposited file. If this is not possible,     , it is best practice to add a custom made <b>title page</b> directly to the document. This page should provide full bibliographic information making it easier for readers to identify and reference the material.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a7h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a7b" aria-expanded="false" aria-controls="a7b">Depositing Instruction</button>
+				</h2>
+			</div>
+			<div id="a7b" class="collapse" aria-labelledby="a7h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>On the <a href="/info/instructions">Instructions page</a> you will find the step-by step user instructions on creating the author profile and depositing materials in the repository.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a8h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a8b" aria-expanded="false" aria-controls="a8b">Repository Rights to deposited Materials</button>
+				</h2>
+			</div>
+			<div id="a8b" class="collapse" aria-labelledby="a8h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>By submitting material to the repository, you grant the National Science Library a non-exclusive right to store and publicly share the material. As the copyright owner, you retain full ownership and can still publish, archive, and distribute your work elsewhere, including in other repositories, on social networks, or on institutional and personal websites.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a9h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a9b" aria-expanded="false" aria-controls="a9b">Disclaimer</button>
+				</h2>
+			</div>
+			<div id="a9b" class="collapse" aria-labelledby="a9h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>The National Science Library is not responsible for the content of the items uploaded to the digital repository.</p>
+					<p>The National Science Library also disclaims any liability for copyright issues related to the materials posted.</p>
+					<p>The National Science Library cannot guarantee the proper functioning of external links included in the files or their descriptions.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section *ngIf="lang === 'ka'" class="static text-justify container">
+	<h1>{{ 'info.user-guide.head' | translate }}</h1>
+	<p>openscience.ge არის ღია წვდომის სამეცნიერო ციფრული რეპოზიტორიუმი, რომელიც ერთ სივრცეში აერთიანებს საქართველოში მოქმედი სამეცნიერო და კვლევითი პროფილის ორგანიზაციათა და პირთა კვლევის შედეგებს. რეპოზიტორიუმის ფუნქცია არის სამეცნიერო ინფორმაციის შეგროვება, გრძელვადიანი შენახვა და მასზე წვდომის უზრუნველყოფა. ციფრული რეპოზიტორიუმის განვითარებაზე ზრუნავს ეროვნული სამეცნიერო ბიბლიოთეკა.</p>
+	<div class="accordion" id="accordionUserGuide">
+		<div class="card">
+			<div class="card-header" id="a1h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a1b" aria-expanded="false" aria-controls="a1b">რატომ უნდა შევინახოთ ჩვენი კვლევის შედეგები ციფრულ რეპოზიტორიუმში?</button>
+				</h2>
+			</div>
+			<div id="a1b" class="collapse" aria-labelledby="a1h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>ციფრულ რეპოზიტორიუმში კვლევის შედეგების შენახვით ავტორებს სარგებელი მოაქვთ როგორც საკუთარი თავისთვის, ასევე სრულად სამეცნიერო საზოგადოებისთვის, რადგან ხელს უწყობენ სამეცნიერო კვლევის შედეგების ხილვადობას, მიკვლევადობასა და გრძელვადიან შენახვას.</p>
+					<h5>გაზრდილი ხილვადობა და გავლენა</h5>
+					<p>ღია წვდომაში განთავსებული სამეცნიერო მასალის წაკითხვისა და ციტირების სიხშირე უფრო მაღალია, ვიდრე დახურულ წვდომაში განთავსებული მასალის.</p>
+					<h5>ინდექსირება</h5>
+					<p>openscience.ge-ზე განთავსებულ მასალებს აქვს საძიებო სისტემების (მაგ. <a href="https://scholar.google.com/">Google Scholar</a>) მიერ პრიორიტეტული ინდექსირება, განსხვავებით პერსონალურ ან/და ინსტიტუციურ ვებგვერდებზე განთავსებული მასალებისაგან.</p>
+					<h5>მარტივი მიკვლევადობა</h5>
+					<p>openscience.ge იყენებს მუდმივ იდენტიფიკატორებს (URL, DOI), რაც უზრუნველყოფს იმას, რომ თქვენი მასალების ბმულები მუდმივად იმუშავებს და საჭიროების შემთხვევაში მარტივად შეძლებთ მათ მითითებას.</p>
+					<h5>მეტრიკა და გავლენის გაზომვა</h5>
+					<p>რეპოზიტორიუმი აჩვენებს სამეცნიერო მასალების მეტრიკებს. თქვენ შეგიძლიათ რეალურ დროში გაიგოთ,რამდენჯერ იქნა ნანახი და გადმოწერილი თქვენი მასალა.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a2h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a2b" aria-expanded="false" aria-controls="a2b">ვის შეუძლია კვლევის შედეგების განთავსება რეპოზიტორიუმში?</button>
+				</h2>
+			</div>
+			<div id="a2b" class="collapse" aria-labelledby="a2h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>რეპოზიტორიუმში კვლევის შედეგების განთავსება შეუძლიათ რეგისტრირებულ მომხმარებლებს. რეგისტრირებული მომხმარებელი შეიძლება იყოს:</p>
+					<ul>
+						<li>უნივერსიტეტი</li>
+						<li>კვლევითი ინსტიტუტი</li>
+						<li>არასამთავრობო ორგანიზაცია</li>
+						<li>სახელმწიფო სააგენტო</li>
+						<li>აფილირებული მკვლევარი/მეცნიერი</li>
+						<li>დამოუკიდებელი მკვლევარი/მეცნიერი</li>
+						<li>სტუდენტი (მაგისტრანტი, დოქტორანტი)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a3h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a3b" aria-expanded="false" aria-controls="a3b">რა ტიპის კვლევის შედეგები შეგიძლიათ განათავსოთ?</button>
+				</h2>
+			</div>
+			<div id="a3b" class="collapse" aria-labelledby="a3h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<ul>
+						<li>სამეცნიერო სტატიები</li>
+						<li>პრეპრინტები და პოსტპრინტები</li>
+						<li>დისერტაციები</li>
+						<li>წიგნები</li>
+						<li>სამაგისტრო თეზისები (სამაგისტრო ნაშრომი რეპოზიტორიუმში განთავსდება სამეცნიერო-კვლევითი ორგანიზაციის პროფილით, დახურულ წვდომაში);</li>
+						<li>სამეცნიერო / ოფიციალური დოკუმენტები და ანგარიშები;</li>
+						<li>კონფერენციის მასალები (აბსტრაქტი, პოსტერი, პრეზენტაცია და სხვა);</li>
+						<li>სასწავლო კურსის მასალები;</li>
+						<li>სამეცნიერო ფოტო და გრაფიკული მასალები;</li>
+						<li>კვლევითი აუდიო და ვიდეო ჩანაწერები;</li>
+						<li>ჟურნალები არქივაციისთვის;</li>
+						<li>განხორციელებული კვლევითი პროექტები.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a4h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a4b" aria-expanded="false" aria-controls="a4b">მოამზადეთ მასალა განსათავსებლად</button>
+				</h2>
+			</div>
+			<div id="a4b" class="collapse" aria-labelledby="a4h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<h5>საავტორო უფლება</h5>
+					<p>რეპოზიტორიუმში მასალის განთავსებამდე დარწმუნდით, რომ თქვენ გაქვთ ამის უფლება:</p>
+					<p>ფლობთ თუ არა საავტორო უფლებას მასალაზე? თუ არა, გაქვთ თუ არა მისი განთავსების უფლება? თუ თქვენი მასალა უკვე გამოქვეყნებულია (მაგ. სამეცნიერო სტატია, მონოგრაფია და ა. შ.), შესაძლოა, გამოქვეყნებამდე დადებული შეთანხმების შესაბამისად, საავტორო უფლება ამ მასალაზე გადაეცით გამომცემელს.</p>
+					<p>სანამ ციფრულ რეპოზიტორიუმში მასალას ატვირთავთ, უნდა დაადგინოთ თქვენი გამომცემელი:</p>
+					<p>(1) გრთავთ თუ არა თვითარქივაციის უფლებას ციფრულ რეპოზიტორიუმში;</p>
+					<p>(2) აკონკრეტებს თუ არა თქვენი მასალის რომელი ვერსიის არქივაციის უფლება გაქვთ.</p>
+					<p>მიჰყევით ამ ნაბიჯებს თვითარქივაციის უფლების გადასამოწმებლად/მისაღებად:</p>
+					<ol>
+						<li>მოიძიეთ საავტორო უფლების შეთანხმება, რომელიც დადეთ გამომცემელთან სტატიის/მონოგრაფიის გამოქვეყნებამდე და გაეცანით პირობებს.</li>
+						<li>თუ თქვენი მასალა გამოქვეყნებული იყო სამეცნიერო ჟურნალში, შეგიძლიათ შეამოწმოთ სამეცნიერო ჟურნალების თვითარქივაციის პოლიტიკა შემდეგ რესურსში: <a href="https://openpolicyfinder.jisc.ac.uk/">Open Policy Finder</a>.</li>
+						<li>გამომცემლის ვებგვერდზე საკონტაქტო ფორმის ან ელ. ფოსტის მეშვეობით დაეკონტაქტეთ გამომცემელს, რათა მოითხოვოთ თვითარქივაციის უფლება.</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a5h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a5b" aria-expanded="false" aria-controls="a5b">ხელნაწერის ვერსიები</button>
+				</h2>
+			</div>
+			<div id="a5b" class="collapse" aria-labelledby="a5h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>რეპოზიტორიუმში კვლევის შედეგების განთავსებამდე უნდა დარწმუნდეთ, რომ რეპოზიტორიუმში ათავსებთ ხელნაწერის ნებადართულ ვერსიას.</p>
+					<p>მრავალი გამომცემელი ავტორს არ აძლევს უფლებას ციფრულ რეპოზიტორიუმში თვითარქივაციის მიზნით განათავსოს გამოქვეყნებული მასალის საბოლოო ანუ გამომცემლის ვერსია.</p>
+					<p>ქვემოთ ნახავთ ხელნაწერის სხვადასხვა ვერსიებს და მათ შორის ძირითად განსხვავებებს.</p>
+					<ul>
+						<li><b>გაგზავნილი ხელნაწერი (SM)</b> – ვერსია, რომელიც გაგზავნეთ სამეცნიერო ჟურნალის რედაქციაში. ხელნაწერის ამ ვერსიას არ აქვს გავლილი რეცენზირების პროცედურა.</li>
+						<li><b>მიღებული ხელნაწერი (AAM)</b> – ვერსია, რომელიც გაგზავნეთ სამეცნიერო ჟურნალის რედაქციაში, რომელმაც გაიარა რეცენზირების პროცედურა და რომელშიც ავტორმა შესაბამისად შეიტანა შესწორებები. ხელნაწერის ეს ვერსია არ არის გამოსაცემად მომზადებული (copyedited) და არ ატარებს ჟურნალის შესახებ მაიდენტიფიცირებელ ინფორმაციას.</li>
+						<li><b>გამომცემლის ვერსია (VOR) – </b>ვერსია, რომელმაც გაიარა რეცენზირების პროცედურა და რომელშიც ავტორმა შესაბამისად შეიტანა შესწორებები. ხელნაწერის ეს ვერსია გამზადებულია გამოსაცემად, არის სამეცნიერო ჟურნალის სტანდარტის შესაბამისად ფორმატირებული, დაკაბადონებული, ატარებს ჟურნალის შესახებ მაიდენტიფიცირებელ ინფორმაციას.</li>
+					</ul>
+					<p>გამომცემელი შესაძლოა არ გაძლევდეთ უფლებას რეპოზიტორიუმში განათავსოთ გამომცემლის ვერსია (VOR), თუმცა უფლება გქონდეთ განათავსოთმიღებული ხელნაწერი (AAM) ან გაგზავნილი ხელნაწერი (SM).</p>
+					<p>გთხოვთ თვითარქივაციის შესახებ უფრო დეტალური ინფორმაციის მისაღებად ეწვიოთ <a href="/info/self-archiving-guide">თვითარქივაციის სახელმძღვანელოს</a>.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a6h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a6b" aria-expanded="false" aria-controls="a6b">ფორმატი</button>
+				</h2>
+			</div>
+			<div id="a6b" class="collapse" aria-labelledby="a6h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>შენახვის მიზნებისთვის რეპოზიტორიუმში განთავსებამდე ტექსტური დოკუმენტების კონვერტირება უნდა მოხდეს PDF ფორმატში. რეპოზიტორიუმი მხარს უჭერს რაც შეიძლება მეტი სახეობის ფაილის ფორმატს. მიუხედავად იმისა, რომ ყველა ფორმატის შეტანა არის შესაძლებელი, რეკომენდებულია ღია და მდგრადი ფორმატების გამოყენება. შენახვის მიზნით უპირატესობა ენიჭება შემდეგ ფორმატებს:</p>
+					<ul>
+						<li>ტექსტური: PDF/A, TXT, HTML, XML, CSV</li>
+						<li>გამოსახულება / ფოტო: TIFF, JPEG 2000</li>
+						<li>აუდიო: WAVE, AIFF, FLAC, MP3</li>
+						<li>ვიდეო: MOV, Motion JPEG 2000</li>
+						<li>მონაცემები: CSV, XML</li>
+					</ul>
+					<p>ყურადღება მიაქციეთ, რომ უკვე გამოქვეყნებულ მასალას ჰქონდეს მაიდენტიფიცირებელი ინფორმაცია. მასალის ფაილში იკითხებოდეს სათაური, ავტორი, URL, DOI, ინფორმაცია საავტორო უფლების/ლიცენზიის შესახებ, გამოქვეყნების ჟურნალის სახელწოდება, ტომი, ნომერი და ა. შ.</p>
+					<p>ამ მიზნისთვის საუკეთესო პრაქტიკას წარმოადგენს უშუალოდ მასალის ტექსტური ნაწილისთვის თავფურცლის დართვა, რომელიც მკითხველს გაუადვილებს მასალის შესახებ ინფორმაციის მიღებას და მომავალში მიკვლევას.</p>
+					<p>მაგალითად, სამეცნიერო სტატიის შემთხვევაში თავფურცელი წარმოადგენს სამეცნიერო ჟურნალის სატიტულო და პირველ რამდენიმე გვერდს. ამ გვერდებზე მოცემულია ინფორმაცია ჟურნალის სახელწოდების, გამოქვეყნების წლის, ტომის/ნომრის, ISSN, საავტორო უფლებისა და ლიცენზიის, გამომცემლის, სარედაქციო საბჭოს შესახებ.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a7h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a7b" aria-expanded="false" aria-controls="a7b">მასალის განთავსება</button>
+				</h2>
+			</div>
+			<div id="a7b" class="collapse" aria-labelledby="a7h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p><a href="/info/instructions">ინსტრუქციის გვერდზე</a> გადასვლით გაეცნობით რეპოზიტორიუმში ავტორის პროფილის შექმნისა და მასალის განთავსების პროცედურას.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a8h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a8b" aria-expanded="false" aria-controls="a8b">რეპოზიტორიუმის უფლება მასში განთავსებულ მასალაზე</button>
+				</h2>
+			</div>
+			<div id="a8b" class="collapse" aria-labelledby="a8h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>რეპოზიტორიუმში მასალის განთავსების შედეგად თქვენ ეროვნულ სამეცნიერო ბიბლიოთეკას მასალაზე გადასცემთ არაექსკლუზიური უფლებას. არაექსკლუზიური უფლება რეპოზიტორიუმს რთავს ნებას, შეინახოს და საჯაროდ ხელმისაწვდომი გახადოს თქვენ მიერ განთავსებული მასალა. საავტორო უფლების მესაკუთრე სრულად ინარჩუნებს საავტორო უფლებას და შეუძლია საკუთარი სურვილის შესაბამისად განკარგოს მასალა, გამოაქვეყნოს, დააარქივოს და გაავრცელოს იგივე ნაშრომი სხვადასხვა სივრცეში, მაგალითად, სხვა რეპოზიტორიუმებში, სოციალურ ქსელებში, ინსტიტუციურ და პერსონალურ ვებგვერდებზე.</p>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="a9h">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#a9b" aria-expanded="false" aria-controls="a9b">პასუხისმგებლობის უარყოფა</button>
+				</h2>
+			</div>
+			<div id="a9b" class="collapse" aria-labelledby="a9h" data-parent="#accordionUserGuide">
+				<div class="card-body">
+					<p>ეროვნული სამეცნიერო ბიბლიოთეკა არ არის პასუხისმგებელი ციფრულ რეპოზიტორიუმში განთავსებული მასალების შინაარსზე.</p>
+					<p>ეროვნული სამეცნიერო ბიბლიოთეკა არ არის პასუხისმგებელი საავტორო უფლებებთან დაკავშირებით წარმოშობილ პრობლემებზე.</p>
+					<p>ეროვნული სამეცნიერო ბიბლიოთეკა არ არის პასუხისმგებელი ფაილებსა და ფაილების აღწერილობებში მითითებული გარე ბმულების გამართული მუშაობის უზრუნველყოფაზე.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
