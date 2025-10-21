@@ -166,6 +166,7 @@ export class MenuResolver implements Resolve<boolean> {
           } else {
             parentMenu = {
               ...parentMenu,
+              parentID: `browse`,
               model: {
                 type: MenuItemType.LINK,
                 text: `menu.section.explore_${section.id}`,
@@ -174,6 +175,38 @@ export class MenuResolver implements Resolve<boolean> {
             };
           }
           menuList.push(parentMenu);
+          menuList.push({
+            id: 'browse',
+            active: false,
+            visible: true,
+            index: 1,
+            model: {
+              type: MenuItemType.TEXT,
+              text: 'menu.section.browse'
+            } as TextMenuItemModel,
+          });
+          menuList.push({
+            id: 'about_us',
+            active: false,
+            visible: true,
+            index: 3,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'info.about-us.head',
+              link: '/info/about-us'
+            } as LinkMenuItemModel
+          });
+          menuList.push({
+            id: 'feedback',
+            active: false,
+            visible: true,
+            index: 4,
+            model: {
+              type: MenuItemType.LINK,
+              text: 'info.feedback.head',
+              link: '/info/feedback'
+            } as LinkMenuItemModel
+          });
         });
       }
       menuList.forEach((menuSection) => this.menuService.addSection(MenuID.PUBLIC, Object.assign(menuSection, {
@@ -181,7 +214,8 @@ export class MenuResolver implements Resolve<boolean> {
       })));
     });
 
-    this.createStatisticsMenu();
+    // this.createStatisticsMenu();
+    this.createDocsMenu();
     return this.waitForMenu$(MenuID.PUBLIC);
   }
 
@@ -254,6 +288,91 @@ export class MenuResolver implements Resolve<boolean> {
         shouldPersistOnRouteChange: true
       })));
     });
+  }
+
+  /**
+   * Add dropdown menu for documentation
+   */
+
+  createDocsMenu() {
+
+    const menuList: any[] = [];
+
+    menuList.push({
+      id: 'repository_policy',
+      parentID: 'documentation',
+      active: false,
+      visible: true,
+      model: {
+        type: MenuItemType.LINK,
+        text: 'info.repository-policy.head',
+        link: '/info/repository-policy'
+      } as LinkMenuItemModel
+    });
+
+    menuList.push({
+      id: 'user_guide',
+      parentID: 'documentation',
+      active: false,
+      visible: true,
+      model: {
+        type: MenuItemType.LINK,
+        text: 'info.user-guide.head',
+        link: '/info/user-guide'
+      } as LinkMenuItemModel
+    });
+
+    menuList.push({
+      id: 'self_archiving_guide',
+      parentID: 'documentation',
+      active: false,
+      visible: true,
+      model: {
+        type: MenuItemType.LINK,
+        text: 'info.self-archiving-guide.head',
+        link: '/info/self-archiving-guide'
+      } as LinkMenuItemModel
+    });
+
+    menuList.push({
+      id: 'cc_licenses_guide',
+      parentID: 'documentation',
+      active: false,
+      visible: true,
+      model: {
+        type: MenuItemType.LINK,
+        text: 'info.cc-licenses-guide.head',
+        link: '/info/cc-licenses-guide'
+      } as LinkMenuItemModel
+    });
+
+    menuList.push({
+      id: 'instructions',
+      parentID: 'documentation',
+      active: false,
+      visible: true,
+      model: {
+        type: MenuItemType.LINK,
+        text: 'info.instructions.head',
+        link: '/info/instructions'
+      } as LinkMenuItemModel
+    });
+
+    menuList.push({
+      id: 'documentation',
+      active: false,
+      visible: true,
+      index: 2,
+      model: {
+        type: MenuItemType.TEXT,
+        text: 'menu.section.documentation'
+      } as TextMenuItemModel,
+    });
+
+    menuList.forEach((menuSection) => this.menuService.addSection(MenuID.PUBLIC, Object.assign(menuSection, {
+      shouldPersistOnRouteChange: true
+    })));
+
   }
 
   /**

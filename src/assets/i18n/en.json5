@@ -3999,6 +3999,8 @@
 
   "menu.section.admin_search": "Admin Search",
 
+  "menu.section.browse": "Browse",
+
   "menu.section.browse_community": "This Community",
 
   "menu.section.browse_community_by_author": "By Author",
@@ -4032,6 +4034,8 @@
   "menu.section.control_panel": "Control Panel",
 
   "menu.section.curation_task": "Curation Task",
+
+  "menu.section.documentation": "Documentation",
 
   "menu.section.edit": "Edit",
 
