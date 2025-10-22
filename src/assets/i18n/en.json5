@@ -2726,19 +2726,19 @@
 
   "info.privacy.title": "Privacy Statement",
 
-  "info.feedback.breadcrumbs": "Feedback",
+  "info.feedback.breadcrumbs": "Contact",
 
-  "info.feedback.head": "Feedback",
+  "info.feedback.head": "Contact",
 
-  "info.feedback.title": "Feedback",
+  "info.feedback.title": "Contact",
 
   "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
 
-  "info.feedback.email_help": "This address will be used to follow up on your feedback.",
+  "info.feedback.email_help": "This address will be used to follow up on your message.",
 
-  "info.feedback.send": "Send Feedback",
+  "info.feedback.send": "Send Message",
 
-  "info.feedback.comments": "Comments",
+  "info.feedback.comments": "Message",
 
   "info.feedback.email-label": "Your Email",
 
@@ -2746,11 +2746,13 @@
 
   "info.feedback.error.email.required": "A valid email address is required",
 
-  "info.feedback.error.message.required": "A comment is required",
+  "info.feedback.error.message.required": "A message is required",
 
   "info.feedback.page-label": "Page",
 
-  "info.feedback.page_help": "The page related to your feedback",
+  "info.feedback.page_help": "The page related to your message",
+
+  "info.feedback.national-science-library": "National Science Library",
 
   "info.about-us.breadcrumbs": "About Us",
 

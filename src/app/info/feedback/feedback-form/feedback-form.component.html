@@ -1,7 +1,16 @@
 <div class="row row-offcanvas row-offcanvas-right">
   <div class="col-xs-12 col-sm-12 col-md-9">
     <h1>{{ 'info.feedback.head' | translate }}</h1>
-    <p>{{ 'info.feedback.info' | translate }}</p>
+    <!-- <p>{{ 'info.feedback.info' | translate }}</p> -->
+    <div class="row my-4">
+      <div class="col-4">
+        <a target="_blank" href="mailto:openscience@sciencelib.ge" class="btn btn-primary"><i class="fas fa-envelope mr-2"></i>openscience@sciencelib.ge</a>
+      </div>
+      <div class="col-6">
+        <a target="_blank" href="https://maps.app.goo.gl/UskuMMVC1EYhq55R6" class="btn btn-primary"><i class="fas fa-map-location-dot mr-2"></i>{{ 'info.feedback.national-science-library' | translate }}</a>
+      </div>
+    </div>
+    <hr>
     <form [formGroup]="feedbackForm" (ngSubmit)="createFeedback()" class="col p-0">
       <div class="row mt-3">
         <div class="control-group col-sm-12">
@@ -34,7 +43,7 @@
       <div class="row mt-3">
         <div class="control-group col-sm-12">
           <label class="control-label" for="page">{{ 'info.feedback.page-label' | translate }}&nbsp;</label>
-          <input id="page" readonly class="form-control" name="page" type="text" value="" formControlName="page" autofocus="autofocus" title="{{ 'info.feedback.page_help' | translate }}">
+          <input id="page" class="form-control" name="page" type="text" value="" formControlName="page" autofocus="autofocus" title="{{ 'info.feedback.page_help' | translate }}">
           <small class="text-muted">{{ 'info.feedback.page_help' | translate }}</small>
         </div>
       </div>
