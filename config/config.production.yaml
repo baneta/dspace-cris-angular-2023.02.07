@@ -17,3 +17,28 @@ themes:
       attributes:
         rel: manifest
         href: assets/nsl/manifest.webmanifest
+    - tagName: link
+      attributes:
+        rel: apple-touch-icon 
+        href: assets/nsl/images/repository-logo-180.png
+        sizes: 180x180
+    - tagName: link
+      attributes:
+        rel: apple-touch-icon
+        href: assets/nsl/images/repository-logo-167.png
+        sizes: 167x167
+    - tagName: link
+      attributes:
+        rel: apple-touch-icon
+        href: assets/nsl/images/repository-logo-152.png
+        sizes: 152x152
+    - tagName: link
+      attributes:
+        rel: apple-touch-icon
+        href: assets/nsl/images/repository-logo-120.png
+        sizes: 120x120
+    - tagName: link
+      attributes:
+        rel: apple-touch-icon
+        href: assets/nsl/images/repository-logo-57.png
+        sizes: 57x57
