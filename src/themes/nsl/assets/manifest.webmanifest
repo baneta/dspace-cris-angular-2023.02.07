@@ -1,0 +1,60 @@
+{
+    "name": "Digital Academic Repository",
+    "short_name": "openscience.ge",
+    "start_url": "/",
+    "theme_color": "#009999",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/repository-logo.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+        },
+        {
+            "src": "images/repository-logo-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "images/repository-logo-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ]
+}

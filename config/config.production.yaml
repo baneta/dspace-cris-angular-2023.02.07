@@ -12,3 +12,8 @@ ui:
 
 themes:
   - name: nsl
+    headTags:
+    - tagName: link
+      attributes:
+        rel: manifest
+        href: assets/nsl/manifest.webmanifest
