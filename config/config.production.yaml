@@ -42,3 +42,19 @@ themes:
         rel: apple-touch-icon
         href: assets/nsl/images/repository-logo-57.png
         sizes: 57x57
+    - tagName: link
+      attributes:
+        rel: icon
+        href: assets/nsl/images/favicon.ico
+        sizes: 256x256 128x128 64x64 48x48 32x32 16x16
+        type: image/x-icon
+    - tagName: link
+      attributes:
+        rel: icon
+        href: assets/nsl/images/repository-logo.svg
+        sizes: any
+        type: image/svg+xml
+
+metaTags:
+  defaultLogo: assets/nsl/images/repository-banner.jpg
+  defaultDescription: Open-access academic digital repository that aggregates the research outputs of academic and research-oriented organizations and individuals in Georgia
