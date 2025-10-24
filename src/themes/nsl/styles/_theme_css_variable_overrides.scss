@@ -3,7 +3,7 @@
 :root {
 
   @include media-breakpoint-up(md) {
-    --ds-header-logo-height: 40px;
+    --ds-header-logo-height: 50px;
     --ds-header-height: 80px;
   }
   @include media-breakpoint-down(sm) {
@@ -22,4 +22,10 @@
   --ds-expandable-navbar-border-top-color: #{$white};
   --ds-expandable-navbar-border-top-height: 0;
   --ds-expandable-navbar-padding-top: 0;
+
+  /* NSL Theme Ovverrides */
+  --ds-admin-sidebar-logo-height: 30px;
+  --ds-home-news-link-color: #fff;
+  --ds-home-news-link-hover-color: #fff;
+  --ds-slider-color: #009999;
 }

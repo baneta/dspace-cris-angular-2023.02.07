@@ -10,3 +10,63 @@
 @import '../../../styles/bootstrap_variables_mapping.scss';
 @import '../../../styles/_truncatable-part.component.scss';
 @import './_global-styles.scss';
+
+.fs-larger, .card-header {
+  font-size: larger;
+}
+
+.mt-6rem {
+  margin-top: 6rem;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.lead {
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 80%;
+  background-color: $brand-color !important; 
+  padding: .3rem .4rem;
+}
+
+.badge-info {
+  margin-bottom: 1rem;
+}
+
+.badge-metric {
+  margin-top: 1rem;
+}
+
+.counters-section[_ngcontent-dspace-angular-c318] {
+  min-width: fit-content !important;
+  max-width: fit-content !important;
+  color: $brand-color-darken !important;
+}
+
+.counters-section[_ngcontent-dspace-angular-c318]:hover {
+  color: $brand-color !important;
+}
+
+.btn-primary, .btn-secondary, .page-item.active .page-link {
+  background-color: $brand-color;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: $brand-color-darken !important;
+}
+
+.btn-primary:focus {
+  outline-color: #fff !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: $brand-color !important;
+}

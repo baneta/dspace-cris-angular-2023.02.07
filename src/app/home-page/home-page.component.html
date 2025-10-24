@@ -26,10 +26,6 @@
                                     [sectionId]="sectionId"
                                     [browseSection]="$any(sectionComponent)"></ds-themed-browse-section>
 
-          <ds-themed-search-section *ngSwitchCase="'search'"
-                                    [sectionId]="sectionId"
-                                    [searchSection]="$any(sectionComponent)"></ds-themed-search-section>
-
           <ds-themed-facet-section *ngSwitchCase="'facet'"
                                    [sectionId]="sectionId"
                                    [facetSection]="$any(sectionComponent)"></ds-themed-facet-section>
