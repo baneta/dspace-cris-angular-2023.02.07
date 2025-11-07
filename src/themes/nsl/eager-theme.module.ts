@@ -13,6 +13,7 @@ import { ExploreModule } from '../../app/shared/explore/explore.module';
 import { AdminSidebarComponent } from './app/admin/admin-sidebar/admin-sidebar.component';
 import { LoginPageComponent } from './app/login-page/login-page.component';
 import { LogoutPageComponent } from './app/logout-page/logout-page.component';
+import { FooterComponent } from './app/footer/footer.component';
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -29,6 +30,7 @@ const DECLARATIONS = [
   AdminSidebarComponent,
   LoginPageComponent,
   LogoutPageComponent,
+  FooterComponent
 ];
 
 @NgModule({

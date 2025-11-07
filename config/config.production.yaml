@@ -58,3 +58,11 @@ themes:
 metaTags:
   defaultLogo: assets/nsl/images/repository-banner.jpg
   defaultDescription: Open-access academic digital repository that aggregates the research outputs of academic and research-oriented organizations and individuals in Georgia
+
+languages:
+  - code: en
+    label: English
+    active: true
+  - code: ka
+    label: ქართული
+    active: true

@@ -20,7 +20,7 @@ import { InstructionsComponent } from './instructions/instructions.component';
 import { RepositoryPolicyComponent } from './repository-policy/repository-policy.component';
 import { UserGuideComponent } from './user-guide/user-guide.component';
 import { SelfArchivingGuideComponent } from './self-archiving-guide/self-archiving-guide.component';
-
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 
 const DECLARATIONS = [
   EndUserAgreementComponent,
@@ -38,7 +38,8 @@ const DECLARATIONS = [
   InstructionsComponent,
   RepositoryPolicyComponent,
   UserGuideComponent,
-  SelfArchivingGuideComponent
+  SelfArchivingGuideComponent,
+  TermsAndConditionsComponent
 ];
 
 @NgModule({

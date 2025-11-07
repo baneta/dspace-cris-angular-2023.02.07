@@ -2428,7 +2428,7 @@
 
   "footer.link.end-user-agreement": "End User Agreement",
 
-  "footer.link.feedback": "Send Feedback",
+  "footer.link.feedback": "Contact",
 
   "forgot-email.form.header": "Forgot Password",
 
@@ -2742,7 +2742,7 @@
 
   "info.feedback.email-label": "Your Email",
 
-  "info.feedback.create.success": "Feedback Sent Successfully!",
+  "info.feedback.create.success": "Sent Successfully!",
 
   "info.feedback.error.email.required": "A valid email address is required",
 
@@ -2793,6 +2793,12 @@
   "info.self-archiving-guide.head": "Self-Archiving Guide",
 
   "info.self-archiving-guide.title": "Self-Archiving Guide",
+  
+  "info.terms-and-conditions.head": "Terms and Conditions of Use",
+
+  "info.terms-and-conditions.title": "Terms and Conditions of Use",
+
+  "info.terms-and-conditions.breadcrumbs": "Terms and Conditions of Use",
 
   "item.alerts.private": "This item is non-discoverable",
 
