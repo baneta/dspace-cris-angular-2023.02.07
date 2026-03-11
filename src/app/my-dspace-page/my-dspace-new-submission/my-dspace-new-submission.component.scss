@@ -9,3 +9,21 @@
 .add {
   flex: initial;
 }
+
+:host ::ng-deep .nsl-mod button {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+:host ::ng-deep .nsl-mod #entityControlsDropdownMenu,
+:host ::ng-deep .nsl-mod #importControlsDropdownMenu
+ {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  will-change: initial;
+  transform: none;
+  width: 100%;
+}

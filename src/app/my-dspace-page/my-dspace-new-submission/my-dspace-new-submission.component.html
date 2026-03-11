@@ -1,16 +1,16 @@
 <div class="parent mb-3">
-  <div class="upload">
+  <div class="upload col-2 mr-5">
     <ds-uploader *ngIf="uploadFilesOptions.url !== ''"
                  [uploadFilesOptions]="uploadFilesOptions"
                  (onCompleteItem)="onCompleteItem($event)"
                  (onUploadError)="onUploadError($event)"
-                 (onFileSelected)="afterFileLoaded($event)"></ds-uploader>
+                 (onFileSelected)="afterFileLoaded($event)" class="d-none"></ds-uploader>
   </div>
-  <div class="add">
-    <ds-my-dspace-new-submission-dropdown></ds-my-dspace-new-submission-dropdown>
+  <div class="add col-5 ml-4">
+    <ds-my-dspace-new-submission-dropdown class="nsl-mod"></ds-my-dspace-new-submission-dropdown>
   </div>
-  <div class="add">
-    <ds-my-dspace-new-external-dropdown></ds-my-dspace-new-external-dropdown>
+  <div class="add col-5">
+    <ds-my-dspace-new-external-dropdown class="nsl-mod"></ds-my-dspace-new-external-dropdown>
   </div>
 
 </div>
