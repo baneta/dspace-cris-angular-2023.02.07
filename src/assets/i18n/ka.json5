@@ -8396,7 +8396,7 @@
 
   // "mydspace.breadcrumbs": "MyDSpace",
   // TODO New key - Add a translation
-  "mydspace.breadcrumbs": "MyDSpace",
+  "mydspace.breadcrumbs": "ჩემი სივრცე",
 
   // "mydspace.description": "",
   // TODO New key - Add a translation
@@ -8520,7 +8520,7 @@
 
   // "mydspace.search-form.placeholder": "Search in MyDSpace...",
   // TODO New key - Add a translation
-  "mydspace.search-form.placeholder": "Search in MyDSpace...",
+  "mydspace.search-form.placeholder": "ძებნა ჩემს სივრცეში...",
 
   // "mydspace.show.workflow": "Workflow tasks",
   // TODO New key - Add a translation
@@ -8560,7 +8560,7 @@
 
   // "mydspace.title": "MyDSpace",
   // TODO New key - Add a translation
-  "mydspace.title": "MyDSpace",
+  "mydspace.title": "ჩემი სივრცე",
 
   // "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
   // TODO New key - Add a translation
@@ -8633,7 +8633,7 @@
 
   // "nav.mydspace": "MyDSpace",
   // TODO New key - Add a translation
-  "nav.mydspace": "MyDSpace",
+  "nav.mydspace": "ჩემი სივრცე",
 
   // "nav.processes": "My Processes",
   // TODO New key - Add a translation
@@ -12051,7 +12051,7 @@
 
   // "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
   // TODO New key - Add a translation
-  "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
+  "submission.import-external.back-to-my-dspace": "ჩემს სივრცეში დაბრუნება",
 
   // "submission.import-external.search.placeholder": "Search the external source",
   // TODO New key - Add a translation

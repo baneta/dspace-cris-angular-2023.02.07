@@ -4214,7 +4214,7 @@
   "metric-badges.download": "<span class=\"fa fa-download\" title=\"Downloads\">&nbsp;</span>",
 
 
-  "mydspace.breadcrumbs": "MyDSpace",
+  "mydspace.breadcrumbs": "My Space",
 
   "mydspace.description": "",
 
@@ -4276,7 +4276,7 @@
 
   "mydspace.results.in-workflow-for": "In workflow for:",
 
-  "mydspace.search-form.placeholder": "Search in MyDSpace...",
+  "mydspace.search-form.placeholder": "Search in My Space...",
 
   "mydspace.show.workflow": "Workflow tasks",
 
@@ -4296,7 +4296,7 @@
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
-  "mydspace.title": "MyDSpace",
+  "mydspace.title": "My Space",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -4333,7 +4333,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "MyDSpace",
+  "nav.mydspace": "My Space",
 
   "nav.processes": "My Processes",
 
@@ -6047,7 +6047,7 @@
 
   "submission.import-external.page.noentity": "An entity type must be selected in order to use this page. Select it using the 'Import metadata from an external source' button in 'MyDspace' page.",
 
-  "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
+  "submission.import-external.back-to-my-dspace": "Back to My Space",
 
   "submission.import-external.search.placeholder": "Search the external source",
 
