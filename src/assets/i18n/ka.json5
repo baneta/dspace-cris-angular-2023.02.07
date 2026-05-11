@@ -1384,19 +1384,19 @@
 
   // "admin.workflow.breadcrumbs": "Administer Workflow",
   // TODO New key - Add a translation
-  "admin.workflow.breadcrumbs": "Administer Workflow",
+  "admin.workflow.breadcrumbs": "სამუშაო პროცესის მართვა",
 
   // "admin.workflow.title": "Administer Workflow",
   // TODO New key - Add a translation
-  "admin.workflow.title": "Administer Workflow",
+  "admin.workflow.title": "სამუშაო პროცესის მართვა",
 
   // "admin.workflow.item.workflow": "Workflow",
   // TODO New key - Add a translation
-  "admin.workflow.item.workflow": "Workflow",
+  "admin.workflow.item.workflow": "სამუშაო პროცესი",
 
   // "admin.workflow.item.workspace": "Workspace",
   // TODO New key - Add a translation
-  "admin.workflow.item.workspace": "Workspace",
+  "admin.workflow.item.workspace": "სამუშაო სივრცე",
 
   // "admin.workflow.item.delete": "Delete",
   // TODO New key - Add a translation
@@ -1404,7 +1404,7 @@
 
   // "admin.workflow.item.send-back": "Send back",
   // TODO New key - Add a translation
-  "admin.workflow.item.send-back": "Send back",
+  "admin.workflow.item.send-back": "უკან გაგზავნა",
 
   // "admin.workflow.item.policies": "Policies",
   // TODO New key - Add a translation
@@ -1416,27 +1416,27 @@
 
   // "admin.metadata-import.breadcrumbs": "Import Metadata",
   // TODO New key - Add a translation
-  "admin.metadata-import.breadcrumbs": "Import Metadata",
+  "admin.metadata-import.breadcrumbs": "მეტამონაცემების შემოტანა",
 
   // "admin.batch-import.breadcrumbs": "Import Batch",
   // TODO New key - Add a translation
-  "admin.batch-import.breadcrumbs": "Import Batch",
+  "admin.batch-import.breadcrumbs": "ჯგუფური შემოტანა",
 
   // "admin.metadata-import.title": "Import Metadata",
   // TODO New key - Add a translation
-  "admin.metadata-import.title": "Import Metadata",
+  "admin.metadata-import.title": "მეტამონაცემების შემოტანა",
 
   // "admin.batch-import.title": "Import Batch",
   // TODO New key - Add a translation
-  "admin.batch-import.title": "Import Batch",
+  "admin.batch-import.title": "ჯგუფური შემოტანა",
 
   // "admin.metadata-import.page.header": "Import Metadata",
   // TODO New key - Add a translation
-  "admin.metadata-import.page.header": "Import Metadata",
+  "admin.metadata-import.page.header": "მეტამონაცემების შემოტანა",
 
   // "admin.batch-import.page.header": "Import Batch",
   // TODO New key - Add a translation
-  "admin.batch-import.page.header": "Import Batch",
+  "admin.batch-import.page.header": "ჯგუფური შემოტანა",
 
   // "admin.metadata-import.page.help": "You can drop or browse CSV files that contain batch metadata operations on files here",
   // TODO New key - Add a translation
@@ -3633,27 +3633,27 @@
 
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
+  "cookies.consent.content-modal.description": "აქ შეგიძლიათ ნახოთ და შეცვალოთ ჩვენს მიერ შეგროვებული ინფორმაცია თქვენს შესახებ.",
 
   // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  "cookies.consent.content-modal.privacy-policy.name": "კონფიდენციალურობის პოლიტიკა",
 
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
+  "cookies.consent.content-modal.privacy-policy.text": "მეტის შესასწავლად წიკითხეთ ჩვენი {privacyPolicy}.",
 
   // "cookies.consent.content-modal.title": "Information that we collect",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.title": "Information that we collect",
+  "cookies.consent.content-modal.title": "ინფორმაცია, რომელსაც ვაგროვებთ",
 
   // "cookies.consent.content-modal.services": "services",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.services": "services",
+  "cookies.consent.content-modal.services": "მომსახურება",
 
   // "cookies.consent.content-modal.service": "service",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.service": "service",
+  "cookies.consent.content-modal.service": "მომსახურება",
 
   // "cookies.consent.app.title.authentication": "Authentication",
   // TODO New key - Add a translation
@@ -3661,23 +3661,23 @@
 
   // "cookies.consent.app.description.authentication": "Required for signing you in",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.authentication": "Required for signing you in",
+  "cookies.consent.app.description.authentication": "საჭიროა სისტემაში შესასვლელად",
 
   // "cookies.consent.app.title.preferences": "Preferences",
   // TODO New key - Add a translation
-  "cookies.consent.app.title.preferences": "Preferences",
+  "cookies.consent.app.title.preferences": "პარამეტრები",
 
   // "cookies.consent.app.description.preferences": "Required for saving your preferences",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.preferences": "Required for saving your preferences",
+  "cookies.consent.app.description.preferences": "საჭიროა თქვენი პარამეტრების შესანახად",
 
   // "cookies.consent.app.title.acknowledgement": "Acknowledgement",
   // TODO New key - Add a translation
-  "cookies.consent.app.title.acknowledgement": "Acknowledgement",
+  "cookies.consent.app.title.acknowledgement": "თანხმობები",
 
   // "cookies.consent.app.description.acknowledgement": "Required for saving your acknowledgements and consents",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.acknowledgement": "Required for saving your acknowledgements and consents",
+  "cookies.consent.app.description.acknowledgement": "საჭიროა თანხმობების შესანახად",
 
   // "cookies.consent.app.title.google-analytics": "Google Analytics",
   // TODO New key - Add a translation
@@ -3685,7 +3685,7 @@
 
   // "cookies.consent.app.description.google-analytics": "Allows us to track statistical data",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.google-analytics": "Allows us to track statistical data",
+  "cookies.consent.app.description.google-analytics": "საშუალებას გვაძლევს სტატისტიკური ინფორმაცია დავამუშავოთ",
 
   // "cookies.consent.app.title.google-recaptcha": "Google reCaptcha",
   // TODO New key - Add a translation
@@ -3693,23 +3693,23 @@
 
   // "cookies.consent.app.description.google-recaptcha": "We use google reCAPTCHA service during registration and password recovery",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.google-recaptcha": "We use google reCAPTCHA service during registration and password recovery",
+  "cookies.consent.app.description.google-recaptcha": "ჩვენ ვიყენებთ Google reCAPTCHA-ს მომსახურებას რეგისტრაციის და პაროლის აღდგენისას",
 
   // "cookies.consent.purpose.functional": "Functional",
   // TODO New key - Add a translation
-  "cookies.consent.purpose.functional": "Functional",
+  "cookies.consent.purpose.functional": "ფუნქციური",
 
   // "cookies.consent.purpose.statistical": "Statistical",
   // TODO New key - Add a translation
-  "cookies.consent.purpose.statistical": "Statistical",
+  "cookies.consent.purpose.statistical": "სტატისტიკური",
 
   // "cookies.consent.purpose.registration-password-recovery": "Registration and Password recovery",
   // TODO New key - Add a translation
-  "cookies.consent.purpose.registration-password-recovery": "Registration and Password recovery",
+  "cookies.consent.purpose.registration-password-recovery": "რეგისტრაცია და პაროლის აღდგენა",
 
   // "cookies.consent.purpose.sharing": "Sharing",
   // TODO New key - Add a translation
-  "cookies.consent.purpose.sharing": "Sharing",
+  "cookies.consent.purpose.sharing": "გაზიარება",
 
   // "cookies.consent.app.title.plumX": "PlumX",
   // TODO New key - Add a translation
@@ -3717,7 +3717,7 @@
 
   // "cookies.consent.app.description.plumX": "PlumX Metrics provide insights into the ways people interact with individual pieces of research output (articles, conference proceedings, book chapters, and many more) in the online environment. (https://plumanalytics.com/)",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.plumX": "PlumX Metrics provide insights into the ways people interact with individual pieces of research output (articles, conference proceedings, book chapters, and many more) in the online environment. (https://plumanalytics.com/)",
+  "cookies.consent.app.description.plumX": "PlumX Metrics გვაძლევს ინფორმაციას იმის შესახებ, თუ როგორ ურთიერთქმედებენ ადამიანები კვლევის ცალკეულ ნაწილებთან (სტატიები, კონფერენციის მასალები, წიგნის თავები და მრავალი სხვა) ონლაინ გარემოში. (https://plumanalytics.com/)",
 
   // "cookies.consent.app.title.altmetric": "Altmetric",
   // TODO New key - Add a translation
@@ -3725,7 +3725,7 @@
 
   // "cookies.consent.app.description.altmetric": "Altmetric’s interface tracks online engagement to reveal how and where your research is being visualized. (https://www.altmetric.com)",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.altmetric": "Altmetric’s interface tracks online engagement to reveal how and where your research is being visualized. (https://www.altmetric.com)",
+  "cookies.consent.app.description.altmetric": "Altmetric-ის ინტერფეისი აკონტროლებს ონლაინ ჩართულობას, რათა გამოავლინოს, თუ როგორ და სად ხდება თქვენი კვლევის ვიზუალიზაცია. (https://www.altmetric.com)",
 
   // "cookies.consent.app.title.dimensions": "Dimensions",
   // TODO New key - Add a translation
@@ -3733,7 +3733,7 @@
 
   // "cookies.consent.app.description.dimensions": "Dimensions analyses references from publications and calculates a set of article-level indicators. (https://www.dimensions.ai)",
   // TODO New key - Add a translation
-  "cookies.consent.app.description.dimensions": "Dimensions analyses references from publications and calculates a set of article-level indicators. (https://www.dimensions.ai)",
+  "cookies.consent.app.description.dimensions": "Dimensions აანალიზებს პუბლიკაციებიდან მიღებულ ცნობებს და ითვლის სტატიის დონის ინდიკატორების ერთობლიობას. (https://www.dimensions.ai)",
 
   // "cookies.consent.app.title.datadog": "Datadog",
   // TODO New key - Add a translation
@@ -3745,11 +3745,11 @@
 
   // "cookies.consent.purpose.thirdPartyJs": "Third-party JavaScript",
   // TODO New key - Add a translation
-  "cookies.consent.purpose.thirdPartyJs": "Third-party JavaScript",
+  "cookies.consent.purpose.thirdPartyJs": "მესამე მხარის ჯავასკრიპტი",
 
   // "curation-task.task.citationpage.label": "Generate Citation Page",
   // TODO New key - Add a translation
-  "curation-task.task.citationpage.label": "Generate Citation Page",
+  "curation-task.task.citationpage.label": "ციტირების გვერიდის დაგენერირება",
 
   // "cris-layout.toggle.open": "Open section",
   // TODO New key - Add a translation
@@ -4826,19 +4826,19 @@
 
   // "footer.link.cookies": "Cookie settings",
   // TODO New key - Add a translation
-  "footer.link.cookies": "Cookie settings",
+  "footer.link.cookies": "ქუქის პარამეტრები",
 
   // "footer.link.privacy-policy": "Privacy policy",
   // TODO New key - Add a translation
-  "footer.link.privacy-policy": "Privacy policy",
+  "footer.link.privacy-policy": "კონფიდენციალურობის პოლიტიკა",
 
   // "footer.link.end-user-agreement": "End User Agreement",
   // TODO New key - Add a translation
-  "footer.link.end-user-agreement": "End User Agreement",
+  "footer.link.end-user-agreement": "საბოლოო მომხმარებლის შეთანხმება",
 
   // "footer.link.feedback": "Send Feedback",
   // TODO New key - Add a translation
-  "footer.link.feedback": "Contact",
+  "footer.link.feedback": "კონტაქტი",
 
   // "forgot-email.form.header": "Forgot Password",
   // TODO New key - Add a translation
@@ -5182,11 +5182,11 @@
 
   // "funding.listelement.badge": "Funding",
   // TODO New key - Add a translation
-  "funding.listelement.badge": "Funding",
+  "funding.listelement.badge": "დაფინანსება",
 
   // "funding.page.titleprefix": "Funding:",
   // TODO New key - Add a translation
-  "funding.page.titleprefix": "Funding:",
+  "funding.page.titleprefix": "დაფინანსება:",
 
 
 
@@ -5392,7 +5392,7 @@
 
   // "info.end-user-agreement.breadcrumbs": "End User Agreement",
   // TODO New key - Add a translation
-  "info.end-user-agreement.breadcrumbs": "End User Agreement",
+  "info.end-user-agreement.breadcrumbs": "საბოლოო მომხმარებლის შეთანხმება",
 
   // "info.end-user-agreement.buttons.cancel": "Cancel",
   // TODO New key - Add a translation
@@ -7136,7 +7136,7 @@
 
   // "item.preview.oaire.awardNumber": "Funding ID:",
   // TODO New key - Add a translation
-  "item.preview.oaire.awardNumber": "Funding ID:",
+  "item.preview.oaire.awardNumber": "დაფინანსების ID:",
 
   // "item.preview.dc.coverage.spatial": "Jurisdiction:",
   // TODO New key - Add a translation
@@ -7144,7 +7144,7 @@
 
   // "item.preview.oaire.fundingStream": "Funding Stream:",
   // TODO New key - Add a translation
-  "item.preview.oaire.fundingStream": "Funding Stream:",
+  "item.preview.oaire.fundingStream": "დაფინანსების ნაკადი:",
 
   // "item.preview.oairecerif.identifier.url": "URL",
   // TODO New key - Add a translation
@@ -8033,7 +8033,7 @@
 
   // "menu.section.explore_fundings": "Fundings",
   // TODO New key - Add a translation
-  "menu.section.explore_fundings": "Fundings",
+  "menu.section.explore_fundings": "დაფინანსება",
 
   // "menu.section.explore_projects": "Projects",
   // TODO New key - Add a translation
@@ -8181,7 +8181,7 @@
 
   // "menu.section.icon.user_agreement_edit": "Edit User Agreement",
   // TODO New key - Add a translation
-  "menu.section.icon.user_agreement_edit": "Edit User Agreement",
+  "menu.section.icon.user_agreement_edit": "სამომხმარებლო შეთანხმების რედაქტირება",
 
   // "menu.section.icon.workflow": "Administer workflow menu section",
   // TODO New key - Add a translation
@@ -8229,11 +8229,11 @@
 
   // "menu.section.pin": "Pin sidebar",
   // TODO New key - Add a translation
-  "menu.section.pin": "Pin sidebar",
+  "menu.section.pin": "საიდბარის მიმაგრება",
 
   // "menu.section.unpin": "Unpin sidebar",
   // TODO New key - Add a translation
-  "menu.section.unpin": "Unpin sidebar",
+  "menu.section.unpin": "საიდბარის მიმაგრების მოხსნა",
 
   // "menu.section.processes": "Processes",
   // TODO New key - Add a translation
@@ -8330,7 +8330,7 @@
 
   // "menu.section.edit_user_agreement": "Edit User Agreement",
   // TODO New key - Add a translation
-  "menu.section.edit_user_agreement": "Edit User Agreement",
+  "menu.section.edit_user_agreement": "სამომხმარებლო შეთანხმების რედაქტირება",
 
   // "menu.section.workflow": "Administer Workflow",
   // TODO New key - Add a translation
@@ -8524,27 +8524,27 @@
 
   // "mydspace.show.workflow": "Workflow tasks",
   // TODO New key - Add a translation
-  "mydspace.show.workflow": "Workflow tasks",
+  "mydspace.show.workflow": "სამუშაო პროცესის ამოცანები",
 
   // "mydspace.show.workspace": "Your submissions",
   // TODO New key - Add a translation
-  "mydspace.show.workspace": "Your submissions",
+  "mydspace.show.workspace": "თქვენი წარდგენები",
 
   // "mydspace.show.supervisedWorkspace": "Supervised items",
   // TODO New key - Add a translation
-  "mydspace.show.supervisedWorkspace": "Supervised items",
+  "mydspace.show.supervisedWorkspace": "ზედამხედველობის ქვეშ მყოფი ერთეულები",
 
   // "mydspace.show.otherworkspace": "Other Workspace Submissions",
   // TODO New key - Add a translation
-  "mydspace.show.otherworkspace": "Other Workspace Submissions",
+  "mydspace.show.otherworkspace": "სამუშაო სივრცის სხვა წარდგენები",
 
   // "mydspace.status.mydspaceArchived": "Archived",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceArchived": "Archived",
+  "mydspace.status.mydspaceArchived": "დაარქივებული",
 
   // "mydspace.status.mydspaceValidation": "Validation",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceValidation": "Validation",
+  "mydspace.status.mydspaceValidation": "ვალიდაცია",
 
   // "mydspace.status.mydspaceWaitingController": "Waiting for reviewer",
   // TODO New key - Add a translation
@@ -8801,7 +8801,7 @@
 
   // "openaire.broker.event.table.funder": "Funder:",
   // TODO New key - Add a translation
-  "openaire.broker.event.table.funder": "Funder:",
+  "openaire.broker.event.table.funder": "დამფინანსებელი:",
 
   // "openaire.broker.event.table.fundingProgram": "Funding program:",
   // TODO New key - Add a translation
@@ -9868,7 +9868,7 @@
 
   // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
   // TODO New key - Add a translation
-  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+  "register-page.registration.info": "დარეგისტრირდით განთავსებისთვის და კოლექციების გამოსაწერად.",
 
   // "register-page.registration.email": "Email Address *",
   // TODO New key - Add a translation
@@ -9888,7 +9888,7 @@
 
   // "register-page.registration.email.hint": "This address will be verified and used as your login name.",
   // TODO New key - Add a translation
-  "register-page.registration.email.hint": "This address will be verified and used as your login name.",
+  "register-page.registration.email.hint": "ეს მისამართი დამოწმდება და გამოიყენება შესასვლელად.",
 
   // "register-page.registration.submit": "Register",
   // TODO New key - Add a translation
@@ -9900,7 +9900,7 @@
 
   // "register-page.registration.success.content": "An email has been sent to {{ email }} containing a special URL and further instructions.",
   // TODO New key - Add a translation
-  "register-page.registration.success.content": "An email has been sent to {{ email }} containing a special URL and further instructions.",
+  "register-page.registration.success.content": "ელ. ფოსტა გაიგზავნა {{ email }} -ზე რომელიც შეიცავს სპეციალურ URL-ს და შემდოგმ ინსტრუქციებს.",
 
   // "register-page.registration.error.head": "Error when trying to register email",
   // TODO New key - Add a translation
@@ -9908,7 +9908,7 @@
 
   // "register-page.registration.error.content": "An error occurred when registering the following email address: {{ email }}",
   // TODO New key - Add a translation
-  "register-page.registration.error.content": "An error occurred when registering the following email address: {{ email }}",
+  "register-page.registration.error.content": "შეცდომა დაფიქსირდა რეგისტრაციისას ამ ელ. ფოსტის მისამართით: {{ email }}",
 
   // "register-page.registration.error.recaptcha": "Error when trying to authenticate with recaptcha",
   // TODO New key - Add a translation
@@ -9924,7 +9924,7 @@
 
   // "register-page.registration.google-recaptcha.open-cookie-settings": "Open cookie settings",
   // TODO New key - Add a translation
-  "register-page.registration.google-recaptcha.open-cookie-settings": "Open cookie settings",
+  "register-page.registration.google-recaptcha.open-cookie-settings": "ქუქის პარამეტტრების გახსნა",
 
   // "register-page.registration.google-recaptcha.notification.title": "Google reCaptcha",
   // TODO New key - Add a translation
@@ -13139,6 +13139,10 @@
   // TODO New key - Add a translation
   "submission.sections.submit.progressbar.describe.publication": "პუბლიკაციის საბაზისო ინფორმაცია",
 
+  // "submission.sections.submit.progressbar.describe.publication_thesis": "Thesis metadata",
+  // TODO New key - Add a translation
+  "submission.sections.submit.progressbar.describe.publication": "თეზისის მეტამონაცემები",
+
   // "submission.sections.submit.progressbar.describe.publication_bibliographic_details": "Publication bibliographic details",
   // TODO New key - Add a translation
   "submission.sections.submit.progressbar.describe.publication_bibliographic_details": "Publication bibliographic details",
@@ -13469,7 +13473,7 @@
 
   // "submission.sections.license.granted-label": "I confirm the license above",
   // TODO New key - Add a translation
-  "submission.sections.license.granted-label": "I confirm the license above",
+  "submission.sections.license.granted-label": "ვეთანხმები ამ ლიცენზიის პირობებს",
 
   // "submission.sections.license.required": "You must accept the license",
   // TODO New key - Add a translation
@@ -13641,31 +13645,31 @@
 
   // "submission.workflow.tasks.pool.claim.selected": "Claim selected",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.pool.claim.selected": "Claim selected",
+  "submission.workflow.tasks.pool.claim.selected": "მონიშნულის მიკუთვნება",
 
   // "submission.workflow.tasks.claimed.approve.selected": "Approve selected",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.approve.selected": "Approve selected",
+  "submission.workflow.tasks.claimed.approve.selected": "მონიშნულის დადასტურება",
 
   // "submission.workflow.tasks.claimed.reject.selected.submit": "Reject selected",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.reject.selected.submit": "Reject selected",
+  "submission.workflow.tasks.claimed.reject.selected.submit": "შერჩეულზე უარის გაგაზავნა",
 
   // "submission.workflow.tasks.claimed.return.selected": "Return selected to pool",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.return.selected": "Return selected to pool",
+  "submission.workflow.tasks.claimed.return.selected": "შერჩეულის დაბრუნება",
 
   // "submission.workflow.tasks.pool.claim_selected_help": "Assign selected tasks to yourself.",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.pool.claim_selected_help": "Assign selected tasks to yourself.",
+  "submission.workflow.tasks.pool.claim_selected_help": "შერჩეული ამოცანების საკუთარი თავისთვის მინიჭება.",
 
   // "submission.workflow.tasks.claimed.approve_selected_help": "Approve selected tasks.",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.approve_selected_help": "Approve selected tasks.",
+  "submission.workflow.tasks.claimed.approve_selected_help": "შერჩეული ამოცანები დადასტურება.",
 
   // "submission.workflow.tasks.claimed.approve": "Approve",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.approve": "Approve",
+  "submission.workflow.tasks.claimed.approve": "დადსტურება",
 
   // "submission.workflow.tasks.claimed.approve_help": "If you have reviewed the item and it is suitable for inclusion in the collection, select \"Approve\"",
   // TODO New key - Add a translation
@@ -13681,7 +13685,7 @@
 
   // "submission.workflow.tasks.claimed.decline": "Decline",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.decline": "Decline",
+  "submission.workflow.tasks.claimed.decline": "უარი",
 
   // "submission.workflow.tasks.claimed.decline_help": "",
   // TODO New key - Add a translation
@@ -13697,7 +13701,7 @@
 
   // "submission.workflow.tasks.claimed.reject.reason.submit": "Reject item",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.reject.reason.submit": "Reject item",
+  "submission.workflow.tasks.claimed.reject.reason.submit": "უარის თქმა ერთეულზე",
 
   // "submission.workflow.tasks.claimed.reject.reason.title": "Reason",
   // TODO New key - Add a translation
@@ -13713,7 +13717,7 @@
 
   // "submission.workflow.tasks.claimed.return": "Return to pool",
   // TODO New key - Add a translation
-  "submission.workflow.tasks.claimed.return": "Return to pool",
+  "submission.workflow.tasks.claimed.return": "დაბრუნება განსახილველად",
 
   // "submission.workflow.tasks.claimed.return_help": "Return the task to the pool so that another user may perform the task",
   // TODO New key - Add a translation
@@ -14137,15 +14141,15 @@
 
   // "otherworkspace.search.results.head": "Workspace submissions",
   // TODO New key - Add a translation
-  "otherworkspace.search.results.head": "Workspace submissions",
+  "otherworkspace.search.results.head": "სამუშაო სივრცის წარდგენები",
 
   // "supervisedWorkspace.search.results.head": "Supervised Items",
   // TODO New key - Add a translation
-  "supervisedWorkspace.search.results.head": "Supervised Items",
+  "supervisedWorkspace.search.results.head": "ზედამხედველობის ქვეშ მყოფი ერთეულები",
 
   // "workspace.search.results.head": "Your submissions",
   // TODO New key - Add a translation
-  "workspace.search.results.head": "Your submissions",
+  "workspace.search.results.head": "თქვენი წარდგენები",
 
   // "workflowAdmin.search.results.head": "Administer Workflow",
   // TODO New key - Add a translation
@@ -14153,7 +14157,7 @@
 
   // "workflow.search.results.head": "Workflow tasks",
   // TODO New key - Add a translation
-  "workflow.search.results.head": "Workflow tasks",
+  "workflow.search.results.head": "სამუშაო პროცესის ამოცანები",
 
   // "supervision.search.results.head": "Workflow and Workspace tasks",
   // TODO New key - Add a translation
